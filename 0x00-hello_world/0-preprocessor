@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -E -P $CFILE > c && tail c
+gcc -E -P -o c $CFILE && grep -v '^#' c
