@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
-/* main - Entry point
+/**
+ * main - Entry point
  *
  * Description: prints if generated number is positive, negative or zero
  *
