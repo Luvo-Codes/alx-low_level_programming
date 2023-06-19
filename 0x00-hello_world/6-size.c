@@ -4,7 +4,7 @@
  *
  * Description: should print the sizes of various data types
  *
- * return: always 0 (success)
+ * Return: always 0 (success)
  */
 int main(void)
 {
