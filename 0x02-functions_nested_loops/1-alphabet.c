@@ -1,18 +1,5 @@
 #include <unistd.h>
 /**
- * main - Entry point
- *
- * Description: prints alphabet in lowercase
- *
- * Return: always 0 (success)
- */
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
-
-/**
  * _putchar - prints out a character to stdout
  * @c: The characted to be written
  * Return: 0 on success and -1 if there are any errors
@@ -34,4 +21,15 @@ void print_alphabet(void)
 	_putchar(c);
 	}
 	_putchar('\n');
+}
+
+/**
+ * main - Entry point
+ * Descrition: calls print_alphabet to print characters
+ * Return: always 0 (success)
+ */
+int main(void)
+{
+	print_alphabet();
+	return (0);
 }
