@@ -15,6 +15,7 @@ int main(void)
 /**
  * _putchar - prints out a character to stdout
  * @c: The characted to be written
+ * Return: 0 on success and -1 if there are any errors
  */
 int _putchar(char c)
 {
